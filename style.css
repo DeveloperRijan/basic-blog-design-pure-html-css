@@ -1,0 +1,337 @@
+*{margin:0;padding:0;outline:0}
+body{position: relative;}
+.template{
+	width:960px;
+	margin:0 auto;
+}
+.clr{
+	overflow:hidden;
+}
+
+
+.headerSection{
+	background: #DDDDDD;
+	padding: 10px 20px;
+}
+.topSection{}
+.logoSection{}
+.logo{
+	width: 350px;
+    float: left;
+}
+.logo img{
+	width: 100px;
+    float: left;
+    border-radius: 50px;
+    height: 100px;
+}
+.logoSlogan{
+	width: 200px;
+    padding-left: 10px;
+}
+.logoSlogan h1{
+	color: #591B71;
+    text-shadow: 3px 1px 12px;
+    font-size: 45px;
+}
+.logoSlogan h1 a{
+	text-decoration: none;
+}
+.logoSlogan p{
+	color: #8A82A7;
+}
+.logoSlogan p a{
+	text-decoration: none;
+}
+.topAds{}
+.topAds img{
+	float: right;
+}
+
+.navigation{ background: #B8B8B8;}
+.navigation ul{margin:0;padding:0;list-style:none;}
+.navigation ul li{
+	float: left;
+    display: block;
+    border-right: 1px solid #A4A4A4;
+}
+.navigation ul li:last-child{border-right: 0px solid #A4A4A4;}
+.navigation ul li a{
+	color: #85487D;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: block;
+}
+
+.navigation ul li a:hover{
+	background:#fff;
+	color:#000;
+}
+
+
+/*our body section css*/
+
+.contentSection{
+	border-left: 1px solid #E9E9E9;
+    border-right: 1px solid #E9E9E9;
+    border-bottom: 1px solid #E9E9E9;
+    padding: 10px 20px;
+}
+.leftSide{
+	width: 650px;
+    float: left;
+}
+.signlePost{}
+.signlePost h2{
+	background: #DDDDDD;
+    padding: 5px 10px;
+	margin-bottom: 15px;
+}
+.signlePost h2 a{
+	text-decoration: none;
+    color: #616555;
+}
+.signlePost h2 a:hover{
+	color: #616519;
+}
+.signlePost a{}
+.signlePost a img{
+	width: 170px;
+    border: 1px solid #E6E6E6;
+    background: #fff;
+    padding: 5px;
+    height: 150px;
+    float: left;
+    margin-right: 15px;
+}
+.signlePost a img:hover{
+	opacity:0.8;
+}
+.signlePost p{
+	text-align: justify;
+    line-height: 1.5;
+}
+
+/*sidebar css */
+.sideBar{
+    float: right;
+    width: 285px;
+}
+.seachBox{}
+.seachBox input[type="text"]{
+	width: 180px;
+    border: 1px solid #E9E9E9;
+    padding: 9px 10px;
+}
+.seachBox input[type="submit"]{
+	background: #591B71;
+    font-size: 18px;
+    padding: 5px 10px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.socialMedia{}
+.socialLink{
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+.socialLink a{
+	text-decoration: none;
+    background: #B8B8B8;
+    padding: 0px 4px;
+    color: #fff;
+    font-weight: bold;
+}
+.socialLink a:hover{
+	background:transparent;
+	color: #000;
+}
+
+.topHeading{}
+.topHeading h3{
+	background: #DDDDDD;
+    color: #797979;
+    padding: 5px 10px;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+
+.categories{}
+.categorieTitle{
+	overflow: scroll;
+    height: 300px;
+	margin-bottom: 20px;
+}
+.categorieTitle ul{
+	margin: 10px 0px 0px 0px;
+    padding: 0;
+    outline: 0;
+    list-style: none;
+}
+.categorieTitle ul li{
+	display: block;
+    background: #C8C8C8;
+    margin-bottom: 2px;
+}
+.categorieTitle ul li a{
+	text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+.categorieTitle ul li:hover{
+	background: #C8C8A2;
+}
+
+.lasetPost{
+    height: 400px;
+	margin-bottom: 25px;
+}
+.sidebarAllSinglePost{
+	overflow: scroll;
+	height: 400px;
+}
+.sibebarSinglePost{
+	border-bottom: 1px solid #B0B0B0;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+.sibebarSinglePost h2{}
+.sibebarSinglePost h2 a{
+	color: #591B8A;
+    text-decoration: none;
+    font-size: 16px;
+}
+.sibebarSinglePost a{}
+.sibebarSinglePost a img{
+	float: left;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #E5E5E5;
+    background: #fff;
+    padding: 3px;
+	margin-right: 10px;
+}
+
+.sibebarSinglePost p{
+	text-align: justify;
+}
+
+.sibebarAds{}
+.sibebarAds a{}
+.sibebarAds a img{
+	border: 1px solid #E6E6E6;
+    background: #fff;
+    padding: 3px;
+}
+
+
+.imageGallery{}
+.imagesGalleries{
+	margin-top: 10px;
+	border: 1px solid #E6E6E6;
+}
+.imagesGalleries a{}
+.imagesGalleries a img{
+	width: 130px;
+    float: left;
+    padding: 5px;
+}
+.imagesGalleries a img:hover{
+	opacity:0.5;
+}
+
+/*Footer Section css*/
+.footerSection {
+	height: 80px;
+    background: #DDDDDD;
+    padding: 0px 20px;
+    margin-top: 20px;
+}
+.footerSection h2{
+	text-align: center;
+    padding-top: 35px;
+}
+.footerSection p{
+	float: right;
+    margin-top: -20px;
+    padding-right: 15px;
+}
+.footerSection h2 span{
+	color: #8486B6
+}
+
+
+
+
+/*floating Link*/
+.floatingSociallink{
+	position: absolute;
+    left: 0px;
+    top: 580px;
+    width: 54px;
+}
+.fixedLink{
+	left: 0px;
+    top: 200px;
+    width: 54px;
+}
+.fixedLink a{}
+.fixedLink a img{
+	width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+.fixedLink a img:hover{
+	opacity:0.5;
+}
+
+
+
+/*Our Contact Form Css*/
+.contactform{}
+.contactform table{}
+.contactform table tr{}
+.contactform table tr td{}
+.contactform input[type="text"], .contactform input[type="email"]{
+	width: 220px;
+    padding: 4px 10px;
+    margin-bottom: 5px;
+    border: 1px solid #E8E8E8;
+}
+
+.contactform input[type="submit"]{
+	background: #0000FF;
+    color: #fff;
+    padding: 5px 10px;
+    border: 1px solid #E1E1E1;
+    cursor: pointer;
+}
+textarea{
+	width: 220px;
+	padding: 4px 10px;
+	border: 1px solid #E1E1E1;
+	min-height: 100px;
+}
+
+
+.postPageImage{
+	width: 300px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+	
+}
+
+#active{
+	background:#fff;
+	color:#000;
+}
+
+
+
+
